@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Logowania - World RolePlay</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div  class="login-box">
+
+            <h1>Logowanie</h1>
+
+            <form>
+
+                <input type="text" name="username" id="username" placeholder="Nazwa użytkownika"/>
+                    <br/><br/>
+                <input type="password" name="password" id="password" placeholder="Hasło"/>
+                    <br/><br/><br/>
+                <button type="submit" onclick="getAccountData()">ZALOGUJ</button>
+        
+            </form>
+
+                <br/>
+
+            <button type="submit" class="button-text" onclick="NavgateToRegister()">Nie masz konta? Stwórz je!</button>
+
+        </div>
+
+        <div class="info-box"></div>
+
+    </div>
+    
+</body>
+</html>

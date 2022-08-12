@@ -1,0 +1,4 @@
+﻿<meta>
+	<info name="WRP_Gamemode" description="RolePlay Gamemode created for community" />
+	<script src="bin/Debug/netcoreapp3.1/WRP_Gamemode.dll" />
+</meta>
